@@ -5,7 +5,7 @@ const Card = ({ icon: Icon, title, description }) => {
       <div className="p-4 flex-grow">
         {Icon && <Icon className="w-12 h-12 mb-4 mx-auto text-blue-500" />}
         <h3 className="text-xl font-semibold text-center">{title}</h3>
-        <p className="mt-2 text-gray-600 text-center">{description}</p>
+        <div className="mt-2 text-gray-600 text-center">{description}</div>
       </div>
     </div>
   );
